@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Novel Speed</title>
+        <link rel="stylesheet" href="css/stilo.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="generocss.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.7.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/botao.css">
+    </head>
+    <body>
+        <!--Cabeçalhoo-->
+        <header class="conteiner">
+            <div class="logo">
+                <img src="img-cap/overlord fundo.png" alt="Logo Overlord">
+            </div>
+            <nav class="login">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Registrar</a></li>
+                </ul>
+                <input type="search">
+            </nav>
+        </header>
+        <!--Fim cabeçalho-->
+
+        <!--nav opcion-->
+        <nav class="conteiner opcion">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Novel</a>
+                </li>
+                <li>
+                    <a href="#">Grupos</a>
+                </li>
+                 <li>
+                    <a href="#">Contatos</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Gêneros-->
+        <div class="conteiner paineis">
+            <div class="painel genero">
+                <h2 id="destaque-search">Pesquisar</h2>
+                <input type="search">
+                
+                <!--Classificação por letra-->
+                <div class="pesquisa">
+                    <h2 class="search">Por Letra</h2>
+                    <input type="radio" name="letras" id="todos" checked="checked" />
+                    <label for="todos">Todos</label>
+                    <input type="radio" name="letras" value="A" id="letra-a" />
+                    <label for="letra-a">A</label>
+                    <input type="radio" name="letras" value="B" id="letra-b" />
+                    <label for="letra-b">B</label>
+                    <input type="radio" name="letras" value="C" id="letra-c" />
+                    <label for="letra-c">C</label>
+                    <input type="radio" name="letras" value="D" id="letra-d" />
+                    <label for="letra-d">D</label>
+                    <input type="radio" name="letras" value="E" id="letra-e" />
+                    <label for="letra-e">E</label>
+                    <input type="radio" name="letras" value="F" id="letra-f" />
+                    <label for="letra-f">F</label>
+                    <input type="radio" name="letras" value="G" id="letra-g" />
+                    <label for="letra-g">G</label>
+                    <input type="radio" name="letras" value="H" id="letra-h" />
+                    <label for="letra-h">H</label>
+                    <input type="radio" name="letras" value="I" id="letra-i" />
+                    <label for="letra-i">I</label>
+                    <input type="radio" name="letras" value="J" id="letra-j" />
+                    <label for="letra-j">J</label>
+                    <input type="radio" name="letras" value="K" id="letra-k" />
+                    <label for="letra-k">K</label>
+                    <input type="radio" name="letras" value="L" id="letra-l" />
+                    <label for="letra-l">L</label>
+                    <input type="radio" name="letras" value="M" id="letra-m" />
+                    <label for="letra-m">M</label>
+                    <input type="radio" name="letras" value="N" id="letra-n" />
+                    <label for="letra-n">N</label>
+                    <input type="radio" name="letras" value="O" id="letra-o" />
+                    <label for="letra-o">O</label>
+                    <input type="radio" name="letras" value="P" id="letra-p" />
+                    <label for="letra-p">P</label>
+                    <input type="radio" name="letras" value="Q" id="letra-q" />
+                    <label for="letra-q">Q</label>
+                    <input type="radio" name="letras" value="R" id="letra-r" />
+                    <label for="letra-r">R</label>
+                    <input type="radio" name="letras" value="S" id="letra-s" />
+                    <label for="letra-s">S</label>
+                    <input type="radio" name="letras" value="T" id="letra-t" />
+                    <label for="letra-t">T</label>
+                    <input type="radio" name="letras" value="U" id="letra-u" />
+                    <label for="letra-u">U</label>
+                    <input type="radio" name="letras" value="V" id="letra-v" />
+                    <label for="letra-v">V</label>
+                    <input type="radio" name="letras" value="X" id="letra-x" />
+                    <label for="letra-x">X</label>
+                    <input type="radio" name="letras" value="W" id="letra-w" />
+                    <label for="letra-w">W</label>
+                    <input type="radio" name="letras" value="Y" id="letra-y" />
+                    <label for="letra-y">Y</label>
+                    <input type="radio" name="letras" value="Z" id="letra-z" />
+                    <label for="letra-z">Z</label>
+                </div>
+                <!-- fim div por letra-->
+                <!--Pesquisa por gênero-->
+                <div class="pesquisa">
+                    <h2 class="search">Gênero</h2>
+                    <input type="radio" name="genero" id="select-todos" checked="checked"/>
+                    <label for="select-todos">Todos</label>
+
+                    <input type="radio" name="genero" id="gen-acao" value="acao" />
+                    <label for="gen-acao">Ação</label>
+
+                    <input type="radio" name="genero" id="gen-adulto" value="adulto" />
+                    <label for="gen-adulto">Adulto</label>
+
+                    <input type="radio" name="genero" id="gen-artes-marciais" value="artes-marciais" />
+                    <label for="gen-artes-marciais">Artes Marciais</label>
+
+                    <input type="radio" name="genero" id="gen-aventura" value="aventura" />
+                    <label for="gen-aventura">Aventura</label>
+
+                    <input type="radio" name="genero" id="gen-comedia" value="comedia" />
+                    <label for="gen-comedia">Comédia</label>
+
+                    <input type="radio" name="genero" id="gen-drama" value="drama" />
+                    <label for="gen-drama">Drama</label>
+
+                    <input type="radio" name="genero" id="gen-ecchi" value="ecchi" />
+                    <label for="gen-ecchi">Ecchi</label>
+
+                    <input type="radio" name="genero" id="gen-sport" value="sport" />
+                    <label for="gen-sport">Esportes</label>
+
+                    <input type="radio" name="genero" id="gen-fantasia" value="fantasia" />
+                    <label for="gen-fantasia">Fantasia</label>
+
+                    <input type="radio" name="genero" id="gen-ficcao-cientifica" value="ficcao-cientifica" />
+                    <label for="gen-ficcao-cientifica">Ficção Cientifica</label>
+                    
+                    <input type="radio" name="genero" id="gen-gender-bender" value="gender-bender" />
+                    <label for="gen-gender-bender">Gender Bender</label>
+                    
+                    <input type="radio" name="genero" id="gen-harem" value="harem" /> 
+                    <label for="gen-harem">Harém</label>
+
+                    <input type="radio" name="genero" id="gen-historico" value="historico" />
+                    <label for="gen-historico">Histórico</label>
+
+                    <input type="radio" name="genero" id="gen-horror" value="horror" />
+                    <label for="gen-horror">Horror</label>
+
+                    <input type="radio" name="genero" id="gen-josei" value="terror" />
+                    <label for="gen-josei">Josei</label>
+
+                    <input type="radio" name="genero" id="gen-lolicon" value="lolicon" /> 
+                    <label for="gen-lolicon">Lolicon</label>
+
+                    <input type="radio" name="genero" id="gen-maduro" value="maduro" />
+                    <label for="gen-maduro">Maduro</label>
+
+                    <input type="radio" name="genero" id="gen-misterio" value="misterio" />
+                    <label for="gen-misterio">Mistério</label>
+
+                    <input type="radio" name="genero" id="gen-psicologico" value="psicologico" />
+                    <label for="gen-psicologico">Psicológico</label>
+
+                    <input type="radio" name="genero" id="gen-robo" value="robo" />
+                    <label for="gen-robo">Robô</label>
+
+                    <input type="radio" name="genero" id="gen-romance" value="romance" />
+                    <label for="gen-romance">Romance</label>
+
+                    <input type="radio" name="genero" id="gen-rpg" value="rpg" />
+                    <label for="gen-rpg">RPG</label>
+
+                    <input type="radio" name="genero" id="gen-seinen" value="seinen" />
+                    <label for="gen-seinen">Seinen</label>
+
+                    <input type="radio" name="genero" id="gen-shotacon" value="shotacon" />
+                    <label for="gen-shotacon">Shotacon</label>
+
+                    <input type="radio" name="genero" id="gen-shoujo" value="shoujo" />
+                    <label for="gen-shoujo">Shoujo</label>
+                    
+                    <input type="radio" name="genero" id="gen-shoujo-ai" value="shoujo-ai" />
+                    <label for="gen-shoujo-ai">Shoujo Ai</label>
+
+                    <input type="radio" name="genero" id="gen-shounen" value="shounen" />
+                    <label for="gen-shounen">Shounen</label>
+
+                    <input type="radio" name="genero" id="gen-shounen-ai" value="shounen-ai" />
+                    <label for="gen-shounen-ai">Shounen Ai</label>
+
+                    <input type="radio" name="genero" id="gen-smut" value="smut" />
+                    <label for="gen-smut">Smut</label>
+
+                    <input type="radio" name="genero" id="gen-sobrenatural" value="sobrenatural" />
+                    <label for="gen-sobrenatural">Sobrenatural</label>
+
+                    <input type="radio" name="genero" id="gen-terror" value="terror" />
+                    <label for="gen-terror">Terror</label>
+
+                    <input type="radio" name="genero" id="gen-tragedia" value="tragedia" />
+                    <label for="gen-tragedia">Tragédia</label>
+
+                    <input type="radio" name="genero" id="gen-vida-contidiana" value="vida-contidiana" />
+                    <label for="gen-vida-contidiana">Vida Cotidiana</label>
+
+                    <input type="radio" name="genero" id="gen-vida-escolar" value="vida-escolar" />
+                    <label for="gen-vida-escolar">Vida Escolar</label>
+
+                    <input type="radio" name="genero" id="gen-wuxia" value="wuxia" />
+                    <label for="gen-wuxia">Wuxia</label>
+
+                    <input type="radio" name="genero" id="gen-xianxia" value="xianxia" />
+                    <label for="gen-xianxia">Xianxia</label>
+                    
+                    <input type="radio" name="genero" id="gen-xuanhuan" value="xuanhuan" />
+                    <label for="gen-xuanhuan">Xuanhuan</label>
+
+                    <input type="radio" name="genero" id="gen-yaoi" value="yaoi" />
+                    <label for="gen-yaoi">Yaoi</label>
+                    
+                    <input type="radio" name="genero" id="gen-yuri" value="yuri" />
+                    <label for="gen-yuri">Yuri</label>
+                </div>
+                <!--fim pesquisa por gênero-->
+
+                <!--Pesquisa por tradução-->
+                <div class="pesquisa">
+                    <h2 class="search">Tradução</h2>
+
+                    <input type="radio" name="traducao" id="todos-traducao" checked="checked" />
+                    <label for="todos-traducao">Todos</label>
+
+                    <input type="radio" name="traducao" id="portugues" value="PT_BR" />
+                    <label for="portugues">Português</label>
+
+                    <input type="radio" name="traducao" id="ingles" value="ingles" />
+                    <label for="ingles">Inglês</label>
+
+                    <input type="radio" name="traducao" id="japones" value="japones" />
+                    <label for="japones">Japonês</label>
+
+                    <input type="radio" name="traducao" id="coreano" value="coreano" />
+                    <label for="coreano">Coreano</label>
+                </div>
+                <!--Fim pesquisa por tradução-->
+
+                <!--Pesquisa por tipo-->
+                <div class="pesquisa">
+                    <h2 class="search">Tipo</h2>
+
+                    <input type="radio" name="tipo" id="todos-tipo" checked="checked" />
+                    <label for="todos-tipo">Todos</label>
+
+                    <input type="radio" name="tipo" id="web-novel" value="web novel" />
+                    <label for="web-novel">Web Novel</label>
+
+                    <input type="radio" name="tipo" id="novel" value="novel" />
+                    <label for="novel">Novel</label>
+
+                    <input type="radio" name="tipo" id="livro" value="livro" />
+                    <label for="livro">Livro</label> 
+
+                    <input type="radio" name="tipo" id="light-novel" value="light novel" />
+                    <label for="light-novel">Light Novel</label>
+                </div>
+                <!--fim pesquisa por tipo-->
+
+                <!--Pesquisa por ordem-->
+                <div class="pesquisa">
+                    <h2 class="search">Ordem</h2>
+
+                    <input type="radio" name="ordem" id="ordem-todos" />
+                    <label for="ordem-todos">Todos</label>
+
+                    <input type="radio" name="ordem" id="ordem-visto" value="mais vistos" />
+                    <label for="ordem-visto">Mais Vistos</label>
+
+                    <input type="radio" name="ordem" id="ordem-novos" value="novos" />
+                    <label for="ordem-novos">Novos</label>
+
+                    <input type="radio" name="ordem" id="ordem-destaque" value="destaque" />
+                    <label for="ordem-destaque">Destaques</label>
+                </div>
+
+                <!--Botões pesquisar e limpar-->
+                <div class="botao">
+                    <a href="#/" class="brk-btn">Pesquisar</a>
+                    <a href="#/" class="underlined-a">&nbsp;&nbsp;Limpar&nbsp;&nbsp;</a>
+                </div>
+                <!--Fim botões-->
+            </section>
+        </div>
+    </body>
+</html> 
