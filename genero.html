@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.7.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/botao.css">
+        <link rel="stylesheet" href="css/input-search.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
     <body>
         <!--Cabeçalhoo-->
@@ -21,7 +23,6 @@
                     <li><a href="#">Login</a></li>
                     <li><a href="#">Registrar</a></li>
                 </ul>
-                <input type="search">
             </nav>
         </header>
         <!--Fim cabeçalho-->
@@ -51,8 +52,12 @@
         <div class="conteiner paineis">
             <div class="painel genero">
                 <h2 id="destaque-search">Pesquisar</h2>
-                <input type="search">
-                
+                <div class="busca-novel">
+                    <form action="">
+                        <input type="search" placeholder="Titulo, Autor, Editora, Data-lançamento">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div>
                 <!--Classificação por letra-->
                 <div class="pesquisa">
                     <h2 class="search">Por Letra</h2>
@@ -302,7 +307,16 @@
                     <a href="#/" class="underlined-a">&nbsp;&nbsp;Limpar&nbsp;&nbsp;</a>
                 </div>
                 <!--Fim botões-->
-            </section>
+            </div>
+            <!--Fim div Gênero-->
+
+            <div class="painel resultado">
+                <h2 class="search">Busca Novel</h2>
+
+                <section class="card-novel">
+                    
+                </section>
+            </div>
         </div>
     </body>
 </html> 
