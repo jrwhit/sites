@@ -7,10 +7,12 @@
         <link rel="stylesheet" href="css/cabecalho.css">
         <link rel="stylesheet" href="generocss.css">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.7.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.7.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/botao.css">
         <link rel="stylesheet" href="css/input-search.css">
+        <link rel="stylesheet" href="css/card-novel-busca.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/pagination1.css">
     </head>
     <body>
         <!--Cabeçalhoo-->
@@ -312,10 +314,267 @@
 
             <div class="painel resultado">
                 <h2 class="search">Busca Novel</h2>
+                <!--first card-->
+                <div class="plx-card gold">
+                    <div class="pxc-bg" style="background-image:url(img-cap/busca/overlordII.jpg);">  </div>
+                    <div class="pxc-avatar"><img src="img-cap/busca/albedo_avatar.jpg"/></div>
+                    <div class="pxc-stopper"></div>
+                    <div class="pxc-subcard">
+                        <div class="pxc-title">Overlord</div>
+                        <div class="pxc-sub">Segunda Temporada</div>
+                        <div class="pxc-feats">
+                            <p>Quando um MMORPG bastante popular anuncia que será desligado permanentemente, um jogador veterano
+                            se recusa a deslogar: Momonga. À medida que NPCs começam a desenvolver personalidades e mentes 
+                            próprias, ele decide usar suas habilidades para se tornar o novo chefão do jogo.</p>
+                        </div>
+                        <div class="pxc-tags">
+                            <div>Açao</div>
+                            <div>Aventura</div>
+                            <div>Fantasia</div>
+                            <div>Harém</div>
+                            <div>Jogos</div>
+                            <div>Estratégia</div>
+                        </div>
+                        <div class="bottom-row"> 
+                            <div class="pxc-info">
+                                <div class="flags">
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/EN.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/BR.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/FR.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/TR.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/JP.png"/>
+                                    </span>
+                                </div>
+                                <div class="region">
+                                    Global
+                                </div>
+                            </div>
+                            <div class="links">
+                                <a class="comprar" uk-tooltip="link-para-comprar">
+                                    <i class="fas fa-shopping-cart"> </i>
+                                </a>
+                                <a class="link book" uk-tooltip="leitura">
+                                    <i class="fas fa-book"></i>
+                                </a>
+                                <a class="favorito" uk-tooltip="favorito">
+                                    <i class="fas fa-heart"> </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <section class="card-novel">
-                    
-                </section>
+                <!--secund card-->
+                <div class="plx-card gold">
+                    <div class="pxc-bg" style="background-image:url(img-cap/busca/arifureta_background.jpg);">  </div>
+                    <div class="pxc-avatar"><img src="img-cap/busca/yue_avatar.png"/></div>
+                    <div class="pxc-stopper"></div>
+                    <div class="pxc-subcard">
+                        <div class="pxc-title">Arifureta</div>
+                        <div class="pxc-sub">Primeira Temporada</div>
+                        <div class="pxc-feats">
+                            <p>Entre a turma transportada para outro mundo, Nagumo Hajime é um estudante do sexo
+                                masculino comum que não tem ambição nem aspiração na vida, e, portanto, chamado 
+                                de " incompetente" por seus colegas. A classe foi convocada para se tornar 
+                                heróis e salvar um país da destruição.</p>
+                        </div>
+                        <div class="pxc-tags">
+                            <div>Açao</div>
+                            <div>Aventura</div>
+                            <div>Fantasia</div>
+                            <div>Harém</div>
+                            <div>Jogos</div>
+                        </div>
+                        <div class="bottom-row"> 
+                                <div class="pxc-info">
+                                    <div class="flags">
+                                        <span>
+                                            <img src="http://pollux.fun/images/flags/EN.png"/>
+                                        </span>
+                                        <span>
+                                            <img src="http://pollux.fun/images/flags/BR.png"/>
+                                        </span>
+                                        <span>
+                                            <img src="http://pollux.fun/images/flags/FR.png"/>
+                                        </span>
+                                        <span>
+                                            <img src="http://pollux.fun/images/flags/TR.png"/>
+                                        </span>
+                                        <span>
+                                            <img src="http://pollux.fun/images/flags/JP.png"/>
+                                        </span>
+                                        <span>
+                                            <img src="http://pollux.fun/images/flags/KR.png"/>
+                                        </span>
+                                        <span>
+                                            <img src="http://pollux.fun/images/flags/CN.png"/>
+                                        </span>
+                                    </div>
+                                    <div class="region">
+                                        Global
+                                    </div>
+                                </div>
+                                <div class="links">
+                                    <a class="comprar" uk-tooltip="link-para-comprar">
+                                        <i class="fas fa-shopping-cart"> </i>
+                                    </a>
+                                    <a class="link book" uk-tooltip="leitura">
+                                        <i class="fas fa-book"></i>
+                                    </a>
+                                    <a class="favorito" uk-tooltip="favorito">
+                                        <i class="fas fa-heart"> </i>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Four card-->
+                <div class="plx-card gold">
+                    <div class="pxc-bg" style="background-image:url(img-cap/busca/farenna_background.jpg);">  </div>
+                    <div class="pxc-avatar"><img src="img-cap/busca/Hiraheishi wa Kako o Yumemiru.jpg"/></div>
+                    <div class="pxc-stopper"></div>
+                    <div class="pxc-subcard">
+                        <div class="pxc-title">Hiraheishi wa Kako o Yumemiru</div>
+                        <div class="pxc-sub">Primeira Temporada</div>
+                        <div class="pxc-feats">
+                            <p>Ele detalha a vida de um soldado de nível médio que morreu no final da guerra contra a 
+                                Raça Demoníaca. Felizmente para ele, ele acorda e descobre que é um bebê de novo, no 
+                                abraço de sua mãe verdadeira, anos no passado. Determinado a evitar a cadeia de 
+                                tragédias que afastou seus entes queridos, ele aproveita os avanços na esgrima e
+                                magia que se desenvolveram durante a guerra
+                            </p>
+                        </div>
+                        <div class="pxc-tags">
+                            <div>Açao</div>
+                            <div>Aventura</div>
+                            <div>Fantasia</div>
+                            <div>Ficção-Cientifica</div>
+                        </div>
+                        <div class="bottom-row"> 
+                            <div class="pxc-info">
+                                <div class="flags">
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/EN.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/BR.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/JP.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/CN.png"/>
+                                    </span>
+                                </div>
+                                <div class="region">
+                                    Global
+                                </div>
+                            </div>
+                            <div class="links">
+                                <a class="comprar" uk-tooltip="link-para-comprar">
+                                    <i class="fas fa-shopping-cart"> </i>
+                                </a>
+                                <a class="link book" uk-tooltip="leitura">
+                                    <i class="fas fa-book"></i>
+                                </a>
+                                <a class="favorito" uk-tooltip="favorito">
+                                    <i class="fas fa-heart"> </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Five Card-->
+                <div class="plx-card gold">
+                    <div class="pxc-bg" style="background-image:url(img-cap/busca/tank_background.jpg);">  </div>
+                    <div class="pxc-avatar"><img src="img-cap/busca/tank_avatar.jpg"/></div>
+                    <div class="pxc-stopper"></div>
+                    <div class="pxc-subcard">
+                        <div class="pxc-title">O Tanque mais forte</div>
+                        <div class="pxc-sub">Primeira Temporada</div>
+                        <div class="pxc-feats">
+                            <p>Tanque rude com força chamado o maior de sempre. No entanto, se você tem a 
+                                habilidade de rank baixo pode prejudicar sua equpe, você
+                                será críticado pelos mercenários mais fortes e você será exilado do grupo.
+                                Rude, que voltou para a cidade periférica, encontra uma nova companheira.
+                            </p>
+                        </div>
+                        <div class="pxc-tags">
+                            <div>Açao</div>
+                            <div>Aventura</div>
+                            <div>Fantasia</div>
+                            <div>Ficção-Cientifica</div>
+                            <div>RPG</div>
+                        </div>
+                        <div class="bottom-row"> 
+                            <div class="pxc-info">
+                                <div class="flags">
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/EN.png"/>
+                                    </span>
+                                    <span>
+                                        <img src="http://pollux.fun/images/flags/JP.png"/>
+                                    </span>
+                                </div>
+                                <div class="region">
+                                    Global
+                                </div>
+                            </div>
+                            <div class="links">
+                                <a class="comprar" uk-tooltip="link-para-comprar">
+                                    <i class="fas fa-shopping-cart"> </i>
+                                </a>
+                                <a class="link book" uk-tooltip="leitura">
+                                    <i class="fas fa-book"></i>
+                                </a>
+                                <a class="favorito" uk-tooltip="favorito">
+                                    <i class="fas fa-heart"> </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <nav>
+                        <ul class="pager">
+                            <li class="pager__item pager__item--prev">
+                                <a class="pager__link" href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewbox="0 0 8 12">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path fill="#33313C" d="M7.41 1.41L6 0 0 6l6 6 1.41-1.41L2.83 6z"></path>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="pager__item"><a class="pager__link" href="">...</a></li>
+                            <li class="pager__item"><a class="pager__link" href="">1</a></li>
+                            <li class="pager__item active"><a class="pager__link" href="">2</a></li>
+                            <li class="pager__item"><a class="pager__link" href="">3</a></li>
+                            <li class="pager__item"><a class="pager__link" href="">4</a></li>
+                            <li class="pager__item"><a class="pager__link" href="">6</a></li>
+                            <li class="pager__item"><a class="pager__link" href="">7</a></li>
+                            <li class="pager__item"><a class="pager__link" href="">...</a></li>
+                            <li class="pager__item pager__item--next"><a class="pager__link" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewbox="0 0 8 12">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#33313C" d="M7.41 1.41L6 0 0 6l6 6 1.41-1.41L2.83 6z"></path>
+                                    </g>
+                                </svg></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </body>

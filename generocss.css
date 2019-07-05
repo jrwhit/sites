@@ -5,7 +5,7 @@
 }
 .genero
 {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 .genero ol
 {
@@ -87,6 +87,18 @@
     padding-bottom: 25px;
     margin-top: 60px;
     text-align: center;
+}
+
+/*REsultado*/
+.resultado
+{
+    padding-left: 10px;
+    width: 1124px;
+}
+.resultado h2
+{
+    text-align: center;
+    font-weight: bold;
 }
 /*tipografia*/
 div .search
